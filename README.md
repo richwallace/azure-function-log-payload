@@ -5,7 +5,7 @@ Demonstrates how to serialize an incoming message/event and log to Application I
 
 Requirements:
 * Azure subscription
-* Web App
+* App Service Plan
 * Azure Function App
 * Application Insights
 * Azure Event Grid (same logic can be used in any Azure Function type)
