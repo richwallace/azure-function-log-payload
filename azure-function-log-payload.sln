@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azure-function-log-payload", "azure-function-log-payload.csproj", "{9ECC3795-0C06-4157-B89A-41B62C6F4161}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{28610EC9-449C-439D-8A95-40800CC774C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9ECC3795-0C06-4157-B89A-41B62C6F4161} = {28610EC9-449C-439D-8A95-40800CC774C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {59E7E225-CDE8-4542-B2B2-15EE7D48092E}
