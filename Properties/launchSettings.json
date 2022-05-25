@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "azure_function_log_payload": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7195",
+      "launchBrowser": false
+    }
+  }
+}
